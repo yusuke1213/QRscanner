@@ -17,7 +17,7 @@
         app:layout_constraintVertical_bias="0.123" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/barcode_text"
         android:layout_width="353dp"
         android:layout_height="32dp"
         android:gravity="center"
@@ -39,6 +39,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
+        android:onClick="ReLoad"
         app:layout_constraintTop_toBottomOf="@+id/textView"
         app:layout_constraintVertical_bias="0.311" />
 </androidx.constraintlayout.widget.ConstraintLayout>
